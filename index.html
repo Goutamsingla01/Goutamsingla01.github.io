@@ -26,7 +26,7 @@
     </nav>
     <div class="nextsec">
       <div class="leftintro">
-        <h1>Hi, My name is Goutam Singla <br>I am a passionate <br>Web developer</h1>
+        <h1>Hi, My name is Goutam Singla <br>I am a passionate <br><span id="element" class="bluecolor"></span></h1>
         <button class="introbtn">Resume</button>
       </div>
       <div class="rightintro"><img src="static/Daco_4184671.png" alt=""></div>
@@ -34,7 +34,7 @@
   </section>
   <section class="aboutme">
     <div class="aboutinfo">
-      <h1>Hi, I’m Matt. Nice to meet you.</h1>
+      <h1>Hi, I’m Goutam. Nice to meet you.</h1>
       <p>Since beginning my journey as a freelance designer over 11 years ago, I've done remote work for agencies,
         consulted for startups, and collaborated with talented people to create digital products for both business and
         consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design
@@ -45,7 +45,7 @@
     <div class="skills">
       <div class="skilldiv">
         <div class="skill3logo">
-          <img src="static/problemsolving.png" alt="">
+          <img src="static/frontend.png" alt="" class="h-35px">
         </div>
         <h1 class="heading">Front-end Coding</h1>
         <p class="poppins">I like to code things from scratch, and enjoy bringing ideas to life in the browser.It is really fascinating thing for me!</p>
@@ -54,7 +54,7 @@
       </div>
       <div class="skilldiv mid">
         <div class="skill3logo">
-          <img src="static/problemsolving.png" alt="">
+          <img src="static/backend.png" alt="">
         </div>
         <h1 class="heading">Back-end Programming</h1>
         <p class="poppins">I like handling operations of website, writing the code that controls its functionality. I love handling backend of websites.</p>
@@ -97,8 +97,15 @@
       <img src="static/social.png" alt="">
       <img src="static/linkedin.png" alt="">
     </div>
-    <p> Copyright © 2002 DanceAcademy.com | All rights reserved</p>
+    <p> Copyright © 2002 GoutamSingla.com | All rights reserved</p>
   </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed=new Typed("#element",{
+      strings:["Animator","Graphic Desigener","Web Developer"],
+      typespeed:50
+    });
+  </script>
 </body>
 
 </html>
