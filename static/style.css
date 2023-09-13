@@ -244,7 +244,10 @@
 .hovertag button:hover{
     cursor: pointer;
     background-color: #6e07f3;
-
+}
+.hovertag button a{
+    color: white;
+    text-decoration:none;
 }
 /* footer  */
 .footer{
